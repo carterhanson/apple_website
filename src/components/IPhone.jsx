@@ -153,7 +153,9 @@ function Model(props) {
         geometry={nodes.vELORlCJixqPHsZ.geometry}
         material={materials.zFdeDaGNRwzccye}
         scale={0.01}
-      />
+      >
+        <meshStandardMaterial roughness={1} map={texture} />
+      </mesh>
       <mesh
         castShadow
         receiveShadow
